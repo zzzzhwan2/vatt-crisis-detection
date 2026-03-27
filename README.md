@@ -25,7 +25,7 @@
    * `Concat Fusion`: 단순 결합 후 다층 퍼셉트론(MLP) 통과
    * `Cross-Attention Fusion`: 모달리티 간 상호 참조를 통한 학습
    * `Late Fusion`: 독립 예측 후 최종 단계에서 가중 결합
-3. **Multimodal Projection Head**: **Contrastive Learning (대조 학습)** 을 통해 동일한 감정을/위기 단계를 가진 벡터 간의 거리를 좁혀 융합된 특성 표현 최적화
+3. **Multimodal Projection Head**: **Contrastive Learning (대조 학습)** 을 통해 텍스트와 오디오 정보를 가장 효과적으로 섞어(Fusion), 예측의 정확도를 높입니다
 4. **Classification Head**: 최종 5개 클래스로 위기 단계 예측
 
 ## 🏆 주요 실험 결과 (Key Results)
